@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IV Drip Moniter | Patient Form</title>
+    <link rel="stylesheet" href="/public/css/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">
+          Patient Information
+        </div>
+        <div class="form">
+          <div class="inputfield"><label>First Name</label><input type="text" name="firstName" class="input"></div>  
+          <div class="inputfield"><label>Last Name</label><input type="text" name="lastName" class="input"></div>  
+          <div class="inputfield"><label>Id</label><input type="text" name="id" class="input"></div>  
+          <div class="inputfield"><label>Bed Id</label><input type="text" name="bedId" class="input"></div> 
+          <div class="inputfield"><label>Gender</label><div class="custom_select">
+            <select name="gender">
+              <option value="">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+          </select>
+          </div>
+        </div> 
+        <div class="inputfield"><label>Doctor Assigned</label><input type="date" name="dateOfAdmission" class="input"></div> 
+        <div class="inputfield"><label>Phone Number</label><input type="text" name="phoneNumber" class="input"></div> 
+        <div class="inputfield"><label>Date Of Addmison</label><input type="date" name="dob" class="input"></div>  
+        <div class="inputfield"><label>Address</label><textarea name="address" class="textarea"></textarea></div> 
+        <div class="inputfield"><input type="submit" value="Register" class="btn"></div>
+        </div>
+    </div>
+    <script src="/js/app.js"></script>
+    <script src="/public/js/app.js"></script>
+</body>
+</html>
